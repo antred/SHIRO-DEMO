@@ -1,4 +1,4 @@
-package Realm;
+package realm;
 
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
@@ -21,7 +21,7 @@ public class MyRealm1 implements Realm {
 	 * 获取Realm名称
 	 */
 	public String getName() {
-		return "这是自定义的Realm实现";
+		return "MyRealm1";
 	}
 
 	/**
